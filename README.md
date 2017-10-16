@@ -29,7 +29,7 @@ Indicateur en fonction du type de variable
 ### Lecture
 
 ``` c
-scanf("d",&variable);
+scanf("%d",&variable);
 ```
 ## Structure de contrôle
 
