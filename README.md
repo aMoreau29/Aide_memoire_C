@@ -50,14 +50,15 @@ else
 switch (variable)
 {
   case valeur1: {
-  //liste d'instructions
-  }break;
+    //liste d'instructions
+    }
+  break;
   case valeur2: {
-  //liste d'instructions
-  }break;
+    //liste d'instructions
+    }break;
   default: {
-  //liste d'instructions
-  }
+    //liste d'instructions
+    }
 }
 ```
 
