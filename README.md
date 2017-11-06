@@ -41,6 +41,11 @@ scanf("%d",&variable);
 * Division: ```resultat=valeur1/valeurs2;```
 * Reste de la division entière (modulo): ```resultat=valeur1%valeurs2;```
 
+### de Comparaison
+
+* test d'égalité: ```valeur1==valeurs2;```
+* test de différence: ```valeur1!=valeurs2;```
+
 ## Structure de contrôle
 
 ### Tests
