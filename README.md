@@ -31,6 +31,16 @@ Indicateur en fonction du type de variable
 ``` c
 scanf("%d",&variable);
 ```
+## Opérateurs
+
+### Mathématiques
+
+* Addition: ```resultat=valeur1+valeurs2;```
+* Soustraction: ```resultat=valeur1-valeurs2;```
+* Multiplication: ```resultat=valeur1*valeurs2;```
+* Division: ```resultat=valeur1/valeurs2;```
+* Reste de la division entière (modulo): ```resultat=valeur1%valeurs2;```
+
 ## Structure de contrôle
 
 ### Tests
