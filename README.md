@@ -99,3 +99,20 @@ do
   //liste d'instructions
 }while(condition);
 ```
+
+
+
+## Tableaux
+
+### declaration / initialisation
+
+int nom_tableau [nbr_elements]={val_1,val_2,...,val_n};
+
+### affectation d'une valeur d'un tableau
+
+nom_tableau[pos_element] = valeur;
+
+### recuperation d'un element du tableau
+
+valeur = nom_tableau[pos_element]; => renvoie la valeur situee a la n-1 "case" du tableau
+
