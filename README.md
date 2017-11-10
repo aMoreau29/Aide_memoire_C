@@ -107,8 +107,15 @@ do
 ### Declaration / initialisation
 
 ``` c
-int nom_tableau [nbr_elements]={val_1,val_2,...,val_n};
+int nom_tableau[nbr_elements]={val_1,val_2,...,val_n};
 ```
+
+Pour les chaînes de caractères, il est possible d'utiliser la syntaxe
+
+``` c
+char nom_tableau[8]="bonjour";   //attention à bien rajouter un element en plus pour stocker le \0
+```
+
 
 ### Affectation d'une valeur d'un tableau
 
