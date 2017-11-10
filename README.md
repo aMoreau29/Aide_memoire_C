@@ -104,19 +104,19 @@ do
 
 ## Tableaux
 
-### declaration / initialisation
+### Declaration / initialisation
 
 ``` c
 int nom_tableau [nbr_elements]={val_1,val_2,...,val_n};
 ```
 
-### affectation d'une valeur d'un tableau
+### Affectation d'une valeur d'un tableau
 
 ``` c
 nom_tableau[n] = valeur;
 ```
 
-### recuperation d'un element du tableau
+### Récuperation d'un élèment du tableau
 
 ``` c
 valeur = nom_tableau[n]; //renvoie la valeur situee a la n+1 "case" du tableau
