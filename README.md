@@ -8,6 +8,10 @@ Aide mémoire pour le cours de langage C.
 * [Entrées / Sortie](#entrees_sorties)  
 * [Opérateurs](#operateurs)  
 * [Structures de Contrôle](#structures_controle)
+  * [if](#if)
+  * [switch](#switch)
+  * [for](#for)
+  * [while](#while)
 * [Tableaux](#tableaux)  
 
 <a name="variables"/>
@@ -77,6 +81,8 @@ Opérateur | Description | Exemple
 
 ## Structures de contrôle
 
+<a name="if"/>
+
 ### if (Test Binaire)
 
 ``` c
@@ -89,6 +95,7 @@ else
   //liste d'instructions
 }
 ```
+<a name="switch"/>
 
 ### switch (Test Multiple)
 
@@ -107,6 +114,7 @@ switch (variable)
     }
 }
 ```
+<a name="for"/>
 
 ### for (Boucle définie)
 
@@ -116,6 +124,7 @@ for (indice=0;indice<10;indice++)
   //liste d'instructions
 }
 ```
+<a name="while"/>
 
 ### while (Boucle indéfinie)
 
