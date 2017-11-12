@@ -4,13 +4,14 @@ Aide mémoire pour le langage C.
 
 ## Table des Matières
 
-[Variables](#variables)  
-[Entrées / Sortie](#entrees_sorties)  
-[Opérateurs](#operateurs)  
-[Structures de Contrôle](#structures_controle)
-[Tableaux](#tableaux)  
+* [Variables](#variables)  
+* [Entrées / Sortie](#entrees_sorties)  
+* [Opérateurs](#operateurs)  
+* [Structures de Contrôle](#structures_controle)
+* [Tableaux](#tableaux)  
 
 <a name="variables"/>
+
 ## Variables
 
 ``` c
@@ -23,6 +24,7 @@ Types possibles:
 * char (caractère)
 
 <a name="entrees_sorties"/>
+
 ## Entrées / Sorties
 
 ### Affichage
@@ -44,6 +46,7 @@ scanf("%d",&variable);
 ```
 
 <a name="operateurs"/>
+
 ## Opérateurs
 
 ### Mathématiques
@@ -60,6 +63,7 @@ scanf("%d",&variable);
 * test de différence: ```valeur1!=valeurs2;```
 
 <a name="structures_controle"/>
+
 ## Structures de contrôle
 
 ### Tests
@@ -115,6 +119,7 @@ do
 ```
 
 <a name="tableaux"/>
+
 ## Tableaux
 
 ### Declaration / initialisation
