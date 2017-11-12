@@ -24,11 +24,6 @@ int | entier
 float | réel
 char | caractère
 
-Types possibles:
-* int (entier)
-* float (réel)
-* char (caractère)
-
 <a name="entrees_sorties"/>
 
 ## Entrées / Sorties
@@ -39,11 +34,12 @@ Types possibles:
 printf("ma valeur=%d",variable);
 ```
 
-Indicateur en fonction du type de variable
-* %d: int
-* %f: float
-* %c: char
-* %s: char []
+Indicateur | Type
+--- | ---
+%d | int
+%f | float
+%c | char
+%s | char []
 
 ### Lecture
 
