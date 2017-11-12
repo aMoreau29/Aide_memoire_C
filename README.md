@@ -68,8 +68,8 @@ Opérateur | Description | Exemple
 
 Opérateur | Description | Exemple
 --- | --- | ---
-```==``` | test d'égalité | valeur1==valeurs2;
-```!=``` | test de différence | valeur1!=valeurs2;
+```==``` | test d'égalité | resultat=valeur1==valeurs2;
+```!=``` | test de différence | resultat=valeur1!=valeurs2;
 
 <a name="structures_controle"/>
 
