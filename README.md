@@ -1,7 +1,9 @@
 # Aide Mémoire C
 
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
-[!C(https://img.shields.io/github/languages/top/badges/shields.svg)]
+
+[![License: CC BY-ND 4.0](https://img.shields.io/badge/niveau-debutant-green.svg)]
+
 
 Aide mémoire pour le cours de langage C.
 
