@@ -1,6 +1,6 @@
 # Aide Mémoire C
 
-Aide mémoire pour le langage C.
+Aide mémoire pour le cours de langage C.
 
 ## Table des Matières
 
@@ -34,6 +34,14 @@ char | caractère
 printf("ma valeur=%d",variable);
 ```
 
+### Lecture
+
+``` c
+scanf("%d",&variable);
+```
+
+### Indicateurs
+
 Indicateur | Type
 --- | ---
 %d | int
@@ -41,11 +49,6 @@ Indicateur | Type
 %c | char
 %s | char []
 
-### Lecture
-
-``` c
-scanf("%d",&variable);
-```
 
 <a name="operateurs"/>
 
@@ -53,13 +56,20 @@ scanf("%d",&variable);
 
 ### Mathématiques
 
-* Addition: ```resultat=valeur1+valeurs2;```
+Opérateur | Description | Exemple
+--- | --- | ---
++ | Addition | ```resultat=valeur1+valeurs2;```
+- | Soustraction | ```resultat=valeur1-valeurs2;```
+/ | Division | ```resultat=valeur1/valeurs2;```
+% | Modulo (reste de la division entière) | ```resultat=valeur1%valeurs2;```
+
+* Addition: 
 * Soustraction: ```resultat=valeur1-valeurs2;```
 * Multiplication: ```resultat=valeur1*valeurs2;```
 * Division: ```resultat=valeur1/valeurs2;```
 * Reste de la division entière (modulo): ```resultat=valeur1%valeurs2;```
 
-### de Comparaison
+### Comparaison
 
 * test d'égalité: ```valeur1==valeurs2;```
 * test de différence: ```valeur1!=valeurs2;```
