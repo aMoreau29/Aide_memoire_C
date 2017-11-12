@@ -4,8 +4,6 @@
 
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/niveau-debutant-green.svg)
 
-(https://img.shields.io/badge/niveau-debutant-green.svg)
-
 
 Aide mémoire pour le cours de langage C.
 
