@@ -58,7 +58,7 @@ Indicateur | Type
 
 Opérateur | Description | Exemple
 --- | --- | ---
- + | Addition | resultat=valeur1+valeurs2;
+```+``` | Addition | resultat=valeur1+valeurs2;
 ```-``` | Soustraction | resultat=valeur1-valeurs2;
 ```/``` | Division | resultat=valeur1/valeurs2;
 ```%``` | Modulo (reste de la division entière) | resultat=valeur1%valeurs2;
@@ -66,8 +66,10 @@ Opérateur | Description | Exemple
 
 ### Comparaison
 
-* test d'égalité: ```valeur1==valeurs2;```
-* test de différence: ```valeur1!=valeurs2;```
+Opérateur | Description | Exemple
+--- | --- | ---
+```==``` | test d'égalité | valeur1==valeurs2;
+```!=``` | test de différence | valeur1!=valeurs2;
 
 <a name="structures_controle"/>
 
