@@ -28,6 +28,8 @@ char | caractère
 
 ## Entrées / Sorties
 
+Pour utiliser les fonctions d'affichage et de lecture, il faut préalablement ajouté dans l'entête du programme: ```#include <stdio.h> ```
+
 ### Affichage
 
 ``` c
