@@ -1,6 +1,16 @@
-# Aide_memoire_C
-Groupe TP12A
+# Aidememoire C
 
+Aide mémoire pour le langage C.
+
+## Table des Matières
+
+[Variables](#variables)  
+[Entrées / Sortie](#entrees_sorties)  
+[Opérateurs](#operateurs)  
+[Structures de Contrôle](#structures_controle)
+[Tableaux](#tableaux)  
+
+<a name="variables"/>
 ## Variables
 
 ``` c
@@ -12,6 +22,7 @@ Types possibles:
 * float (réel)
 * char (caractère)
 
+<a name="entrees_sorties"/>
 ## Entrées / Sorties
 
 ### Affichage
@@ -31,6 +42,8 @@ Indicateur en fonction du type de variable
 ``` c
 scanf("%d",&variable);
 ```
+
+<a name="operateurs"/>
 ## Opérateurs
 
 ### Mathématiques
@@ -46,7 +59,8 @@ scanf("%d",&variable);
 * test d'égalité: ```valeur1==valeurs2;```
 * test de différence: ```valeur1!=valeurs2;```
 
-## Structure de contrôle
+<a name="structures_controle"/>
+## Structures de contrôle
 
 ### Tests
 
@@ -100,8 +114,7 @@ do
 }while(condition);
 ```
 
-
-
+<a name="tableaux"/>
 ## Tableaux
 
 ### Declaration / initialisation
