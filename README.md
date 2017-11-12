@@ -6,7 +6,9 @@ Aide mémoire pour le cours de langage C.
 
 * [Variables](#variables)  
 * [Entrées / Sortie](#entrees_sorties)  
-* [Opérateurs](#operateurs)  
+* [Opérateurs](#operateurs)
+  * [Mathématique](#mathematique) 
+  * [Comparaison](#comparaison) 
 * [Structures de Contrôle](#structures_controle)
   * [if](#if)
   * [switch](#switch)
@@ -60,6 +62,8 @@ Indicateur | Type
 
 ## Opérateurs
 
+<a name="mathematique"/>
+
 ### Mathématiques
 
 Opérateur | Description | Exemple
@@ -69,6 +73,7 @@ Opérateur | Description | Exemple
 ```/``` | Division | resultat=valeur1/valeurs2;
 ```%``` | Modulo (reste de la division entière) | resultat=valeur1%valeurs2;
 
+<a name="comparison"/>
 
 ### Comparaison
 
