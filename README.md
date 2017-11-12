@@ -135,13 +135,13 @@ char nom_tableau[8]="bonjour";   //attention à bien rajouter un element en plus
 ```
 
 
-### Affectation d'une valeur dans un tableau
+### Affectation d'un élèment
 
 ``` c
 nom_tableau[n] = valeur;
 ```
 
-### Récuperation d'un élèment du tableau
+### Récuperation d'un élèment
 
 ``` c
 valeur = nom_tableau[n]; //renvoie la valeur situee a la n+1 "case" du tableau
