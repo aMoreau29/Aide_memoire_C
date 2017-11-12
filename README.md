@@ -18,6 +18,12 @@ Aide mémoire pour le langage C.
 type nom_variable;
 ``` 
 
+Type | Description 
+--- | --- 
+int | entier
+float | réel
+char | caractère
+
 Types possibles:
 * int (entier)
 * float (réel)
