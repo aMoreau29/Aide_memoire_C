@@ -1,4 +1,4 @@
-# Aidememoire C
+# Aide Mémoire C
 
 Aide mémoire pour le langage C.
 
