@@ -135,7 +135,7 @@ char nom_tableau[8]="bonjour";   //attention à bien rajouter un element en plus
 ```
 
 
-### Affectation d'une valeur d'un tableau
+### Affectation d'une valeur dans un tableau
 
 ``` c
 nom_tableau[n] = valeur;
