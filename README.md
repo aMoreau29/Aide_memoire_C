@@ -75,7 +75,7 @@ Opérateur | Description | Exemple
 
 ## Structures de contrôle
 
-### Tests
+### IF: Test Binaire
 
 ``` c
 if (condition)
@@ -87,6 +87,8 @@ else
   //liste d'instructions
 }
 ```
+
+### SWITCH: Test Multiple
 
 ``` c
 switch (variable)
@@ -104,7 +106,7 @@ switch (variable)
 }
 ```
 
-### Boucles
+### FOR: Boucle définie
 
 ``` c
 for (indice=0;indice<10;indice++)
@@ -112,6 +114,8 @@ for (indice=0;indice<10;indice++)
   //liste d'instructions
 }
 ```
+
+### WHILE: Boucle indéfinie
 
 ``` c
 while(condition)
