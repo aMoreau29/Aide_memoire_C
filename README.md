@@ -223,6 +223,8 @@ etudiant.age=100;
 annee_naissance=2017-etudiant.age;
 ```
 
+<a name="fonction"/>
+
  ## Fonctions
  
  Une fonction correspond à un sous-programme. Il y a globalement deux techniques pour définir une fonction.
