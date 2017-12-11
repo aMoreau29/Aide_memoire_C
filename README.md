@@ -18,6 +18,7 @@ Aide mémoire pour le cours de langage C.
   * [for](#for)
   * [while](#while)
 * [Tableaux](#tableaux)  
+* [Structure](#structure)
 
 <a name="variables"/>
 
@@ -178,3 +179,49 @@ nom_tableau[n] = valeur;
 ``` c
 valeur = nom_tableau[n]; //renvoie la valeur situee a la n+1 "case" du tableau
 ```
+
+<a name="structure"/>
+
+## Structure
+
+Une structure permet de stocker des informations n'ayant pas forcement le même type.
+
+### Définition (à placer avant le main)
+
+``` c
+typedef struct{
+     char nom[20];
+     char prenom[20];
+     int age;
+     } personne;
+ ```
+ 
+ ### Déclaration (à placer dans le main)
+ 
+ ``` c
+ personne etudiant;
+ ```
+ 
+ Il est possible d'initialiser les champs en utilisant des accolades
+ 
+  ``` c
+ personne etudiant={"Shannon","Claude",50};
+ ```
+ 
+ ### Affectation
+
+L'accès à un champs de la structure s'obtient en utilisant le .
+
+``` c
+etudiant.age=100;
+```
+
+### Récuperation
+
+``` c
+annee_naissance=2017-etudiant.age;
+```
+
+ 
+ 
+     
