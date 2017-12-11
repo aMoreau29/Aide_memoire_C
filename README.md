@@ -237,25 +237,25 @@ annee_naissance=2017-etudiant.age;
  ### Déclaration de la fonction (à placer avant le main)
  
  ``` c
- float calcul_module(float partie_reelle,float partie_imaginaire);
+ float calcul_module2(float partie_reelle,float partie_imaginaire);
  ```
  
  ### Définition de la fonction (à placer après le main)
  
   ``` c
- float calcul_module(float partie_reelle,float partie_imaginaire)
+ float calcul_module2(float partie_reelle,float partie_imaginaire)
  {
-    float module;
+    float module2;
     
-    module=partie_reelle+partie_imaginaire;
+    module2=partie_reelle*partie_reelle+partie_imaginaire*partie_imaginaire;
  
-    return module;
+    return module2;
  }
  ```
   
  ### Appel d'une fonction (à placer dans le main ou dans une autre fonction)
 
   ``` c
-  module=calcul_module(1,3);
+  module2=calcul_module2(1,3);
    ```
   
