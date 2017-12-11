@@ -227,7 +227,7 @@ annee_naissance=2017-etudiant.age;
 
  ## Fonctions
  
- Une fonction correspond à un sous-programme. Il y a globalement deux techniques pour définir une fonction.
+ Une fonction correspond à un sous-programme. Il y a globalement deux techniques pour définir une fonction dans le même fichier que le main.
  
  * Technique 1: Déclaration + Définition avant le main
  * Technique 2: Décalaration avant le main, puis définition de la fonction après le main.
