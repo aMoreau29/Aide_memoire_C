@@ -19,6 +19,7 @@ Aide mémoire pour le cours de langage C.
   * [while](#while)
 * [Tableaux](#tableaux)  
 * [Structure](#structure)
+* [Fonctions](#fonction)
 
 <a name="variables"/>
 
@@ -222,6 +223,37 @@ etudiant.age=100;
 annee_naissance=2017-etudiant.age;
 ```
 
+ ## Fonctions
  
+ Une fonction correspond à un sous-programme. Il y a globalement deux techniques pour définir une fonction.
  
-     
+ * Technique 1: Déclaration + Définition avant le main
+ * Technique 2: Décalaration avant le main, puis définition de la fonction après le main.
+ 
+ La technique 2 est plus modulaire.
+ 
+ ### Déclaration de la fonction (à placer avant le main)
+ 
+ ``` c
+ float calcul_module(float partie_reelle,float partie_imaginaire);
+ ```
+ 
+ ### Définition de la fonction (à placer après le main)
+ 
+  ``` c
+ float calcul_module(float partie_reelle,float partie_imaginaire)
+ {
+    float module;
+    
+    module=partie_reelle+partie_imaginaire;
+ 
+    return module;
+ }
+ ```
+  
+ ### Appel d'une fonction (à placer dans le main ou dans une autre fonction)
+
+  ``` c
+  module=calcul_module(1,3);
+   ```
+  
